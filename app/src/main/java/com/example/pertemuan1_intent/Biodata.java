@@ -33,6 +33,7 @@ public class Biodata extends AppCompatActivity {
                 (TextView)findViewById(R.id.output_angkatan);
         final Button tampil =
                 (Button)findViewById(R.id.btn_tampil);
+
         tampil.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
